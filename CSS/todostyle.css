@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+li{
+ display: inline;
+}
+body, html{
+  height: 100%;
+}
+article {
+  width: 300px;
+  border: 5px solid white;
+  padding: 15px;
+  margin: 50px;
+}
+nav {
+  background-color: whiteSmoke;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  
+}
+nav ul li {
+  padding: 50px;
+  color: deepPink;
+}
+a {
+  text-decoration: none;
+  color: deepPink;
+  font-size: 50px;
+}
+
+.cards {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+img {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+}
+
+.flex-item{
+  display: flex;
+  flex-direction: column;
+  border: 5px solid grey;  
+}
+h1 {
+  color: deepPink;
+}
+h2 {
+  color: white
+}
+p {
+  color: white;
+ 
+}
+#article {
+  display: flex;
+  border: none;
+}
+
+.carnivalCard {
+  background-image: url("https://www.travelbeginsat40.com/wp-content/uploads/2019/02/rio-carnival.jpg");
+}
+.forestCard {
+  background-image: url("https://media.tacdn.com/media/attractions-splice-spp-674x446/06/73/dd/7b.jpg?fit=crop&w=960&h=416");
+}
+.bancoCard {
+  background-image: url("https://abrilcasaclaudia.files.wordpress.com/2018/03/screen-shot-2018-03-12-at-6-31-06-pm.png?w=1024&h=681");
+}
+.beachCard {
+ background-image: url("https://www.wallpapers13.com/wp-content/uploads/2018/08/Rio-de-Janeiro-Copacabana-Beach-and-Ipanema-beach-aerial-view-Ultra-HD-4K-Wallpapers-for-Desktop-Mobiles-3840x2160-915x515.jpg");
+}
+footer {
+  text-align: center;
+  color: blue;
+}
+.contact {
+  color: blue;
+}

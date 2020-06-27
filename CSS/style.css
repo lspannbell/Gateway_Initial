@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+body,
+html {
+  height: 100%;
+}
+div {
+  width: 300px;
+  border: 5px solid white;
+  padding: 15px;
+  margin: 50px;
+}
+nav {
+  background-color: whiteSmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  padding: 50px;
+  font-size: 50px;
+
+}
+a {
+  text-decoration: none;
+  color: deepPink;
+  font-size: 30;
+}
+
+.hero-image {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Orographic_Cloud_at_Sugar_Loaf_-_Rio_de_Janeiro%2C_Brazil.JPG/800px-Orographic_Cloud_at_Sugar_Loaf_-_Rio_de_Janeiro%2C_Brazil.JPG");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FF1493;
+}
+footer {
+  text-align: center;
+  color: blue;
+}
+.contact {
+  color: blue;
+}
+

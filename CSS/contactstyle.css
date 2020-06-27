@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ul{
+  list-style-type: none;
+}
+li{
+ display: inline;
+}
+body, html{
+  height: 100%;
+}
+div {
+  width: 300px;
+  border: 5px white;
+  padding: 15px;
+  margin: 20px;
+}
+nav {
+  background-color: whiteSmoke;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+nav ul li {
+  padding: 50px;
+  font-size: 50px;
+}
+a {
+  text-decoration: none;
+  color: deepPink;
+  font-size: 24;
+}
+ol {
+   background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  
+}
+.comment {
+      width: 40%;
+/*       height: 100px; */
+      padding: 10px;
+      background-color: white;
+}
+footer {
+  text-align: center;
+  color: blue;
+}
+.contact {
+  color: blue;
+}
